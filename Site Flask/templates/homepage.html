@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Meu Portfólio</title>
+</head>
+<body>
+  <h1>Bem-vindo ao Meu Portfólio!</h1>
+  <p>Aqui está uma breve apresentação do meu portfólio.</p>
+
+  <h2>Escolha uma categoria de projetos:</h2>
+  <ul>
+    <li><a href="{{ url_for('projetos_python') }}">Projetos em Python</a></li>
+    <li><a href="{{ url_for('projetos_microcontrolador') }}">Projetos com Microcontrolador</a></li>
+  </ul>
+
+  <h2>Contato</h2>
+  <p>Para entrar em contato, clique no botão abaixo:</p>
+  <a href="{{ url_for('contato') }}">Contato</a>
+</body>
+</html>
